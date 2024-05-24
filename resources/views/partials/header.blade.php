@@ -6,7 +6,7 @@
                 <img src="{{ Vite::asset('resources/img/logo.png') }}" width="50">
             </div>
             <div class="col-auto">
-                <a class="btn btn-outline-primary" href="{{ route('home') }}">Home</a>
+                <a class="btn btn-outline-primary ms-2" href="{{ route('home') }}">Home</a>
             </div>
         </div>
        

@@ -9,7 +9,7 @@ class PageController extends Controller
     //
     public function home()
     {
-        $saluto = 'CIAO MONDO';
-        return view('index', compact('saluto'));
+        $data = 'CIAO MONDO';
+        return view('index', compact('data'));
     }
 }
