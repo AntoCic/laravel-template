@@ -11,8 +11,10 @@
 
 
 ## CMD utili
+- php artisan make:model NomeSingolarePrimaLetteraMaiuscola -m
+- php artisan make:controller --help
 - php artisan make:controller PageController
-- php artisan make:model NomeSingolarePrimaLetteraMaiuscola
+- php artisan make:controller PageController -r --model[=Model]
 - php artisan make:migration nome_della_migration
 - php artisan make:migration create_users_table
 - php artisan make:migration update_users_table --table=users
@@ -21,7 +23,11 @@
 - php artisan migrate:rollback
 - php artisan migrate:status
 - php artisan make:seeder TrainsSeeder
-php artisan db:seed --class=TrainsSeeder
+- php artisan db:seed --class=TrainsSeeder
+
+- php artisan route:list
+
+Route::resource('pastas', PastaController::class);
 
 
 https://laravel.com/docs/10.x/seeding
